@@ -1,0 +1,330 @@
+
+
+
+.header1{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.logo{
+    
+    height: 80px;
+    width: 100px;
+    overflow: hidden;
+    margin-top: 10px;
+
+}
+
+.logo img{
+
+    width: 100%;
+    object-fit: contain;
+}
+
+.TituloLogo{
+
+    color: white;
+    font-size: 22px;
+    
+
+}
+
+.header2{
+
+    margin-right: 100px;
+}
+
+.p1{
+
+    display: flex ;
+    flex-direction: row ; 
+    align-items: center ;
+    
+}
+
+.p1 a{
+
+    margin-right: 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.a1{
+
+    color: white;
+}
+
+.a2{
+
+    color: gray;
+}
+
+.a3{
+
+    color: rgb(6, 175, 6);
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    height: 600px;
+    width: 100%;
+   
+}
+
+.contenedor img{
+
+    height: 100%;
+    width: 100%;
+    filter: brightness(0.5);
+}
+
+
+.textoSobreImagen{
+
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: bold;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.button1{
+
+    font-size: 16px;
+    line-height: 120%;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: bold;
+}
+
+.button2{
+
+    font-size: 16px;
+    line-height: 120%;
+    color: white;
+    background-color: rgb(57, 192, 97);
+    border: 1px solid white;
+    padding: 10px;
+    font-size: bold;
+    
+}
+
+.main2{
+
+    text-align: center;
+    padding: 10px;
+}
+
+.oradores{
+
+    display: flex;
+    flex: row;
+    justify-content: center;
+}
+
+.card{
+    margin-right: 20px;
+}
+
+.TemaOrador{
+
+    display: flex;
+    flex: row;
+    
+}
+
+.TemaOrador p{
+
+    margin-right: 10px;
+}
+
+.js{
+
+    background-color: #F0DB4F;
+    color: black;
+    font-weight: bold;
+    padding: 4px;
+    font-size: 14px;
+
+}
+
+.react{
+
+    background-color: #61DBFB;
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    font-size: 14px;
+}
+
+.negocios{
+
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    font-size: 14px;
+}
+
+.StartUp{
+
+    background-color: #AB3325;
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    font-size: 14px;
+}
+
+.honolulu{
+
+    height: 380px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.honolulu1{
+
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+}
+
+.honolulu1 img{
+
+    width: 100%;
+    object-fit: contain;
+}
+
+.honolulu2{
+
+    height: 100%;
+    width: 50%;
+    color: white;
+    background-color:  #1c2f2f ;
+    padding: 10px;
+    margin-left: 2px;
+}
+
+
+.honolulu2 h1{
+
+    font-size: 28px;
+    
+}
+
+.preForm{
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preForm1{
+
+    font-size: 17px;
+}
+
+.preForm2{
+
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.Dotted{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.preForm3{
+    font-size: 17px;
+}
+
+.preForm4{
+    font-size: 17px;
+    text-decoration:underline;
+    text-decoration-style: dotted;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.preForm5{
+
+    font: 17px;
+}
+
+.input1{
+
+    line-height: 120px;
+    font-size: 22px;
+}
+
+.form1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.form1 input{
+
+    padding: 7px;
+}
+
+.form1 p{
+
+    margin-right: 420px;
+    color: slategray;
+    font-size: 14px;
+}
+
+.formButton{
+
+    background-color: limegreen;
+    color: white;
+    font-size: 22px;
+    width: 50%;
+    border-radius: 4px;
+}
+
+footer{
+
+    background-color: #274141;
+    height: 40px;
+    padding: 10px;
+}
+
+.pie{
+
+    display: flex;
+    flex: row;
+    justify-content: center;
+    margin-top: 19px;
+    
+}
+
+.pie li{
+
+    color: white;
+    list-style: none;
+    font-family: tahoma;
+    font-size: 15px;
+    margin-right: 40px;
+}
